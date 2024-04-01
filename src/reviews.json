@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Jean-Baptiste Sainte-Beuve",
+      "location": "France",
+      "date": "05/01/2024",
+      "duration": 4,
+      "text": "Nous avons passé un bon séjour chez Stéphanie, à proximité des commerces de première nécessité, location de skis très proche, remontée mécanique télésiège à 3minutes, bon restaurant « Tête Noire » ambiance sympathique.Logement idéal pour famille de 4 personnes.",
+      "score": {
+        "proprete": 5,
+        "precision": 3,
+        "arrivee": 5,
+        "communication": 4,
+        "emplacement": 5,
+        "qualitePrix": 3
+      }
+    },
+    {
+      "name": "Sophie Dubois",
+      "location": "United States",
+      "date": "10/15/2023",
+      "duration": 3,
+      "text": "Nous avons passé un excellent séjour chez Thomas, l'emplacement était parfait pour nos vacances en famille. Hautement recommandé !",
+      "score": {
+        "proprete": 4,
+        "precision": 5,
+        "arrivee": 5,
+        "communication": 4,
+        "emplacement": 5,
+        "qualitePrix": 4
+      }
+    },
+    {
+      "name": "Pierre Martin",
+      "location": "Canada",
+      "date": "07/20/2023",
+      "duration": 2,
+      "text": "Très bel endroit, bien situé. Nous avons passé un excellent séjour !",
+      "score": {
+        "proprete": 5,
+        "precision": 4,
+        "arrivee": 5,
+        "communication": 5,
+        "emplacement": 4,
+        "qualitePrix": 5
+      }
+    },
+    {
+      "name": "Marie Dupont",
+      "location": "United Kingdom",
+      "date": "02/28/2023",
+      "duration": 5,
+      "text": "Vacances fantastiques, l'appartement était propre et bien équipé. Nous reviendrons certainement !",
+      "score": {
+        "proprete": 5,
+        "precision": 5,
+        "arrivee": 5,
+        "communication": 5,
+        "emplacement": 4,
+        "qualitePrix": 5
+      }
+    },
+    {
+      "name": "Thomas Leroy",
+      "location": "Australia",
+      "date": "11/12/2022",
+      "duration": 7,
+      "text": "Super séjour, l'hôte était très accueillant et l'endroit était propre et confortable. Je le recommande vivement !",
+      "score": {
+        "proprete": 3,
+        "precision": 5,
+        "arrivee": 4,
+        "communication": 5,
+        "emplacement": 2,
+        "qualitePrix": 5
+      }
+    },
+    {
+        "name": "Michelle Dupont",
+        "location": "Londres",
+        "date": "03/10/2021",
+        "duration": 1,
+        "text": "Super séjour, l'hôte était très accueillant et l'endroit était propre et confortable. Je le recommande vivement !",
+        "score": {
+          "proprete": 3,
+          "precision": 3,
+          "arrivee": 3,
+          "communication": 3,
+          "emplacement": 3,
+          "qualitePrix": 3
+        }
+      }
+  ]
+  

@@ -1,0 +1,317 @@
+[
+    {
+        "text": "Baignoire",
+        "subtext": null,
+        "bool": true,
+        "category": "Salle de bain",
+        "feature": false
+    },
+    {
+        "text": "Sèche-cheveux",
+        "subtext": null,
+        "bool": true,
+        "category": "Salle de bain",
+        "feature": false
+    },
+    {
+        "text": "Produit de nettoyage",
+        "subtext": null,
+        "bool": true,
+        "category": "Salle de bain",
+        "feature": false
+    },
+    {
+        "text": "Shampooing",
+        "subtext": null,
+        "bool": true,
+        "category": "Salle de bain",
+        "feature": false
+    },
+    {
+        "text": "Savon pour le corps",
+        "subtext": null,
+        "bool": true,
+        "category": "Salle de bain",
+        "feature": false
+    },
+    {
+        "text": "Eau chaude",
+        "subtext": null,
+        "bool": true,
+        "category": "Salle de bain",
+        "feature": false
+    },
+    {
+        "text": "Gel douche",
+        "subtext": null,
+        "bool": true,
+        "category": "Salle de bain",
+        "feature": false
+    },
+    {
+        "text": "Cintres",
+        "subtext": null,
+        "bool": true,
+        "category": "Chambre et linge",
+        "feature": false
+    },
+    {
+        "text": "Oreillers et couvertures supplémentaires",
+        "subtext": null,
+        "bool": true,
+        "category": "Chambre et linge",
+        "feature": false
+    },
+    {
+        "text": "Fer à repasser",
+        "subtext": null,
+        "bool": true,
+        "category": "Chambre et linge",
+        "feature": false
+    },
+    {
+        "text": "Télévision",
+        "subtext": null,
+        "bool": true,
+        "category": "Divertissement",
+        "feature": true
+    },
+    {
+        "text": "Chauffage radiant",
+        "subtext": null,
+        "bool": true,
+        "category": "Chauffage et climatisation",
+        "feature": false
+    },
+    {
+        "text": "Détecteur de monoxyde de carbone",
+        "subtext": null,
+        "bool": true,
+        "category": "Sécurité à la maison",
+        "feature": false
+    },
+    {
+        "text": "Kit de premiers secours",
+        "subtext": null,
+        "bool": true,
+        "category": "Sécurité à la maison",
+        "feature": false
+    },
+    {
+        "text": "Cuisine",
+        "subtext": "Espace où les voyageurs peuvent cuisiner",
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": true
+    },
+    {
+        "text": "Réfrigérateur",
+        "subtext": null,
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Four à micro-ondes",
+        "subtext": null,
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Équipements de cuisine de base",
+        "subtext": "Casseroles et poêles, huile, sel et poivre",
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Vaisselle et couverts",
+        "subtext": "Bols, baguettes, assiettes, tasses, etc.",
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Bouilloire électrique",
+        "subtext": null,
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Cafetière : cafetière manuelle",
+        "subtext": null,
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Verres à vin",
+        "subtext": null,
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Grille-pain",
+        "subtext": null,
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Plaques de cuisson",
+        "subtext": null,
+        "bool": true,
+        "category": "Cuisine et salle à manger",
+        "feature": false
+    },
+    {
+        "text": "Accessible à skis : À proximité des remontées mécaniques",
+        "subtext": "Les voyageurs peuvent accéder aux remontées mécaniques sans conduire ni prendre de transport payant",
+        "bool": true,
+        "category": "Caractéristiques de l'emplacement",
+        "feature": true
+    },
+    {
+        "text": "Laverie automatique à proximité",
+        "subtext": null,
+        "bool": true,
+        "category": "Caractéristiques de l'emplacement",
+        "feature": false
+    },
+    {
+        "text": "Accès gratuit au complexe hôtelier",
+        "subtext": "Les voyageurs peuvent utiliser les installations du complexe à proximité",
+        "bool": true,
+        "category": "Caractéristiques de l'emplacement",
+        "feature": false
+    },
+    {
+        "text": "Parking gratuit sur place",
+        "subtext": null,
+        "bool": true,
+        "category": "Parking et installations",
+        "feature": true
+    },
+    {
+        "text": "Parking gratuit dans la rue",
+        "subtext": null,
+        "bool": true,
+        "category": "Parking et installations",
+        "feature": false
+    },
+    {
+        "text": "Piscine, accès Partagé (disponible à certaines périodes)",
+        "subtext": null,
+        "bool": true,
+        "category": "Parking et installations",
+        "feature": true
+    },
+    {
+        "text": "Jacuzzi partagé : disponible à certaines périodes",
+        "subtext": null,
+        "bool": true,
+        "category": "Parking et installations",
+        "feature": true
+    },
+    {
+        "text": "Sauna, accès commun(e)",
+        "subtext": null,
+        "bool": true,
+        "category": "Parking et installations",
+        "feature": true
+    },
+    {
+        "text": "Ascenseur",
+        "subtext": "La maison ou le bâtiment dispose d’un ascenseur d’une profondeur minimale de 132cm et d’une porte d’une largeur minimale de 81cm.",
+        "bool": true,
+        "category": "Parking et installations",
+        "feature": true
+    },
+    {
+        "text": "Animaux acceptés",
+        "subtext": "Les animaux d'assistance sont toujours autorisés",
+        "bool": true,
+        "category": "Services",
+        "feature": true
+    },
+    {
+        "text": "Séjours longue durée autorisés",
+        "subtext": "Séjours de 28 jours ou plus autorisés",
+        "bool": true,
+        "category": "Services",
+        "feature": false
+    },
+    {
+        "text": "Arrivée autonome",
+        "subtext": null,
+        "bool": true,
+        "category": "Services",
+        "feature": false
+    },
+    {
+        "text": "Boîte à clé sécurisée",
+        "subtext": null,
+        "bool": true,
+        "category": "Services",
+        "feature": false
+    },
+    {
+        "text": "Ménage disponible pendant le séjour",
+        "subtext": null,
+        "bool": true,
+        "category": "Services",
+        "feature": false
+    },
+    {
+        "text": "Caméras de surveillance extérieure et/ou dans les espaces communs",
+        "subtext": null,
+        "bool": false,
+        "category": "Non inclus",
+        "feature": false
+    },
+    {
+        "text": "Wifi",
+        "subtext": null,
+        "bool": false,
+        "category": "Non inclus",
+        "feature": false
+    },
+    {
+        "text": "Lave-linge",
+        "subtext": null,
+        "bool": false,
+        "category": "Non inclus",
+        "feature": false
+    },
+    {
+        "text": "Sèche-linge",
+        "subtext": null,
+        "bool": false,
+        "category": "Non inclus",
+        "feature": false
+    },
+    {
+        "text": "Climatisation",
+        "subtext": null,
+        "bool": false,
+        "category": "Non inclus",
+        "feature": false
+    },
+    {
+        "text": "Équipements de base",
+        "subtext": null,
+        "bool": false,
+        "category": "Non inclus",
+        "feature": false
+    },
+    {
+        "text": "Détecteur de fumée",
+        "subtext": "Ce logement n'est peut-être pas équipé d'un détecteur de fumée. Contactez l'hôte si vous avez des questions.",
+        "bool": false,
+        "category": "Non inclus",
+        "feature": true
+    }   
+]
