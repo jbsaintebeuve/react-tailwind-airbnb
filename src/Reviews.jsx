@@ -56,7 +56,7 @@ function calculateAveragesCategories(data) {
 const Ratings = calculateAveragesCategories(ReviewsData)
 const firstSixReviews = ReviewsData.slice(0,6)
 
-function Reviews({score}){
+function Reviews({score, setFixed}){
 
     const [ratesClient, setRatesClient] = useState(calculateClientAverage(ReviewsData))
     const [countsByNote, setCountsByNote] = useState(Array(5).fill(0)); 
@@ -84,6 +84,7 @@ function Reviews({score}){
 
     const toggleShowFullReviews = () => {
         setShowFullReviews(!showFullReviews);
+        setFixed(!showFullReviews)
       };
 
     useEffect(() => {
@@ -143,7 +144,7 @@ function Reviews({score}){
                     </div>
                     <ol className="flex list-none text-sm my-2">
                         <li className="font-semibold flex flex-row align-middle items-center">
-                         {<Stars fullStars={ratesClient[index]} numStars="5" width="4" />}
+                         {<Stars fullStars={ratesClient[index]} numStars="5" width="2" />}
                         <span className="px-1 text-xs">•</span></li>
                         <li className="font-semibold">Le {item.date}<span className="px-1 text-xs">•</span></li>
                         <li className="font-light text-gray-400">Séjour de {item.duration} {item.duration > 1 ? "nuits" : "nuit"}</li>
@@ -163,12 +164,12 @@ function Reviews({score}){
         {showFullReviews && (
         <div className="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
             <div onClick={toggleShowFullReviews} className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity cursor-pointer z-10"></div>
-            <div className="fixed inset-0 z-50 mx-auto overflow-y-hidden h-full">
-                    <div className="flex items-end justify-center p-4 text-center sm:items-center sm:p-0 ">
-                        <div className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 min:min-w-64 w-full sm:max-w-4xl md:max-w-5xl ">
-                            <div className="bg-white px-4 pb-4 pt-5 sm:p-10 sm:pb-4">
-                                <div className="sm:flex sm:items-start">
-                                    <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left w-full">
+            <div className="fixed inset-0 z-50 mx-auto w-fit">
+                    <div className="flex flex-col items-end justify-center p-4 text-center sm:items-center sm:p-0 h-full">
+                        <div className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 min:min-w-64 w-full sm:max-w-4xl md:max-w-5xl h-full">
+                            <div className="bg-white px-4 pb-4 pt-4 sm:p-10 sm:pb-4 h-full">
+                                <div className="sm:flex sm:items-start h-full">
+                                    <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left w-full h-full">
                                         <div className="flex flex-row-reverse">
                                             <div className="hover:bg-gray-100 hover:cursor-pointer flex rounded-full h-10 w-10 justify-center items-center" onClick={toggleShowFullReviews}>
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} className="w-6 h-6 stroke-black">
@@ -216,11 +217,11 @@ function Reviews({score}){
                                                     <div className="border-b"></div>
                                                 </div>
                                             </div>
-                                            <div className="col-span-2 ">
+                                            <div className="col-span-2 flex flex-col h-full overflow-y-scroll">
                                                 <p className="text-2xl font-semibold">{searchResults.length}  {ReviewsData.length > 1 ?  "commentaires" : "commentaire"}</p>
                                                 <input value={searchTerm}  onChange={(e) => setSearchTerm(e.target.value)} className="border w-full rounded-full py-2 px-8 my-4 border-gray-400" placeholder="Recherchez des commentaires" type='text'></input>
                                                     { searchResults.length > 0 ?(
-                                                        <div className="flex flex-col overflow-y-scroll" >
+                                                        <div className="flex flex-col overflow-y-scroll pb-8" >
                                                         {searchResults.map((item, index) => (
                                                             <div className='flex flex-col my-4' key={index}>
                                                                 <div className="flex flex-row mb-1">
@@ -234,7 +235,7 @@ function Reviews({score}){
                                                                 </div>
                                                                 <ol className="flex list-none text-sm my-2">
                                                                     <li className="font-semibold flex flex-row align-middle items-center text-sm justify-center">
-                                                                    {<Stars fullStars={ratesClient[index]} numStars="5" width="4" />}
+                                                                    {<Stars fullStars={ratesClient[index]} numStars="5" width="2" />}
                                                                     <span className="px-1">•</span></li>
                                                                     <li className="font-semibold">Le {item.date}<span className="px-1 text-xs">•</span></li>
                                                                     <li className="font-light text-gray-400">Séjour de {item.duration} {item.duration > 1 ? "nuits" : "nuit"}</li>

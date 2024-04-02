@@ -4,11 +4,12 @@ import ListEquipement from "./ListEquipement";
 import KeyFeatures from "./KeyFeatures";
 import DisplayPrice from "./DisplayPrice";
 import Reviews from "./Reviews";
+import Calendar from "./Calendar";
 
 const FlatElements = ["6 voyageurs","1 chambre","4 lits","1 salle de bain"]
 const FlatRating = ["4,80", 25]
 
-function Body(){
+function Body({ setFixed }){
     const [elements, setElements] = useState([]);
     const [score, setScore] = useState([]);
 
@@ -40,12 +41,14 @@ function Body(){
             <div className="border-b"></div>
             <ListEquipement />
             <div className="border-b"></div>
+            <Calendar />
+            <div className="border-b"></div>
         </div>
         <div className="col-start-3">
             <DisplayPrice />
         </div>
     </div>
-    <Reviews score={score} />
+    <Reviews score={score} setFixed={setFixed} />
     <div className="border-b"></div>
     <p>TEST</p>
         

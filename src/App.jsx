@@ -8,15 +8,16 @@ import Body from './Body'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [isFixed, setIsFixed] = useState(false)
 
   return (
-    <>
+    <div className={isFixed ? "fixed w-screen" : ""}>
       <Header />
       <div className='container mx-auto'>
         <PictureGrid />
-        <Body />
+        <Body setFixed={setIsFixed} />
       </div>
-    </>
+    </div>
   )
 }
 
